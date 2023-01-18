@@ -21,7 +21,7 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        // exact="true"
         activeclassname="active"
         className="about-link"
         to="/about"
@@ -29,7 +29,7 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        // exact="true"
         activeclassname="active"
         className="contact-link"
         to="/contact"
@@ -40,9 +40,9 @@ const Sidebar = () => (
     <ul>
       <li>
         <a
+          href="https://www.linkedin.com/in/iqbal-ahmadi-36b0a6111"
           target="_blank"
           rel="noreferrer"
-          href="www.linkedin.com/in/iqbal-ahmadi-36b0a6111"
         >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
