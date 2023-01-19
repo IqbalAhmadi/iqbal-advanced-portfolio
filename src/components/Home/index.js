@@ -3,7 +3,7 @@ import LogoTitle from '../../assets/images/logo-s1.png'
 import AnimatedLetters from '../AnimatedLetters'
 import { Link } from 'react-router-dom'
 import './index.scss'
-// import Loader from 'react-loaders'
+import Loader from 'react-loaders'
 import Logo from './Logo'
 
 const Home = () => {
@@ -62,6 +62,7 @@ const Home = () => {
         </div>
         <Logo />
       </div>
+      <Loader type="pacman" />
     </>
   )
 }
