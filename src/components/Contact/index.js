@@ -18,14 +18,22 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_2871ujn', 'template_1swzgv2', form.current, 'GVH4uFyF_vR6TF9dI')
-      .then((result) => {
-          alert('Message successfully sent!');
-      }, (error) => {
-        alert('Failed to send the message, please try again');
-      });
-  };
-
+    emailjs
+      .sendForm(
+        'service_2871ujn',
+        'template_1swzgv2',
+        form.current,
+        'GVH4uFyF_vR6TF9dI'
+      )
+      .then(
+        (result) => {
+          alert('Message successfully sent!')
+        },
+        (error) => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+  }
 
   return (
     <>
@@ -43,53 +51,61 @@ const Contact = () => {
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
           </p>
-          <div className='contact-form'>
-          <form ref={form} onSubmit={sendEmail} >
-            <ul>
-              <li className="half">
-                <input type="text" name="name" placeholder="Name" required />
-              </li>
-              <li className="half">
-                <input type="email" name="email" placeholder="Email" required />
-              </li>
-              <li>
-                <input
-                  placeholder="Subject"
-                  type="text"
-                  name="subject"
-                  required
-                />
-              </li>
-              <li>
-                <textarea
-                  placeholder="Message"
-                  name="message"
-                  required
-                ></textarea>
-              </li>
-              <li>
-                <input type="submit" className="flat-button" value="SEND" />
-              </li>
-            </ul>
-          </form>
+          <div className="contact-form">
+            <form ref={form} onSubmit={sendEmail}>
+              <ul>
+                <li className="half">
+                  <input type="text" name="name" placeholder="Name" required />
+                </li>
+                <li className="half">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    placeholder="Subject"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND" />
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
-        </div>
-        <div className='info-map' >
+        <div className="info-map">
           Iqbal Ahmadi
-          <br/>
+          <br />
           Elk Grove
-          <br/>
-          Sacramento, CA 95829
-          <br/>
+          <br />
+          CA 95829
+          <br />
           <span>iqb.ahmadi@gmail.com</span>
         </div>
-        <div className='map-wrap' >
-          <MapContainer center={[38.45477, -121.37100 ]} zoom={13} >
-            <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
-          
-          <Marker position={[38.45477, -121.37100]}>
-              <Popup>Iqbal lives close to this area, come over for a cup of coffee ☕️</Popup>
-          </Marker>
+        <div className="map-wrap">
+          <MapContainer center={[38.45477, -121.371]} zoom={13}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+
+            <Marker position={[38.45477, -121.371]}>
+              <Popup>
+                Iqbal lives close to this area, come over for a cup of coffee
+                ☕️
+              </Popup>
+            </Marker>
           </MapContainer>
         </div>
       </div>

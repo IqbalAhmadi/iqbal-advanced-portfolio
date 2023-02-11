@@ -20,7 +20,19 @@ const PortfolioPage = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
+              strArray={[
+                'P',
+                'o',
+                'r',
+                't',
+                'f',
+                'o',
+                'l',
+                'i',
+                'o',
+                ' ',
+                '💼',
+              ]}
               idx={15}
             />
           </h1>

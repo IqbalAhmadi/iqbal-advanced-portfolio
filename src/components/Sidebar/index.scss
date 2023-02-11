@@ -91,6 +91,13 @@
             }
         }
 
+        // PORTFOLIO button hover effect
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO';
+            }
+        }
+
         // Current page button color effect
         a.active {
             svg {
