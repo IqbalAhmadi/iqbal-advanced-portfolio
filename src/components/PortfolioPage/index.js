@@ -1,4 +1,8 @@
 import './index.scss'
+import Projects from '../Projects.js/pojects'
+import About from '../About/index'
+import Contact from '../Contact/index'
+import Home from '../Home/index'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,6 +17,20 @@ const PortfolioPage = () => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
+
+  // TODO: rendering pages - not finished yet
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'about':
+        return <About />
+      case 'portfolio':
+        return <Projects />
+      case 'contact':
+        return <Contact />
+      case 'home':
+        return <Home />
+    }
+  }
 
   return (
     <>
@@ -42,7 +60,6 @@ const PortfolioPage = () => {
             completed projects.
           </p>
         </div>
-        <a href="https://www.google.com">Link to external website</a>
       </div>
       <Loader type="pacman" />
     </>
