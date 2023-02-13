@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const PortfolioPage = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,6 +42,7 @@ const PortfolioPage = () => {
             completed projects.
           </p>
         </div>
+        <a href="https://www.google.com">Link to external website</a>
       </div>
       <Loader type="pacman" />
     </>
