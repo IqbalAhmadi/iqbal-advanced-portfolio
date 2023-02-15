@@ -12,7 +12,7 @@ const imgDimension = (width, [ratioW, ratioH]) => {
 function Projects() {
   const styles = {
     projectImg: {
-      ...imgDimension(550, [16, 9]),
+      ...imgDimension(400, [16, 9]),
     },
   }
 

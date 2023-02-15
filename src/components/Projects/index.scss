@@ -1,12 +1,14 @@
 
-// * {
-//     box-sizing: border-box;
-// }
-// .application {
-//     // display: inline-block;
-//     // align-content: center;
-//     // position: relative;
-//     float: right;
-//     // content: '';
-//     // display: table;
-// }
+* {
+    box-sizing: border-box;
+}
+.application {
+    
+    float: right;
+}
+@media (max-width: 500px) {
+    .application {
+      float: right;
+    //   margin: 0 auto; /* Center the image horizontally */
+    }
+  }
