@@ -2,6 +2,7 @@
   "name": "iqbal-advanced-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iqbalahmadi.github.io/iqbal-advanced-portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
