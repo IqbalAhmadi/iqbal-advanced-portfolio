@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Note Taker",
+        "description": "A simple note taking app. Create, edit, and delete notes in your browser.",
+        "image": "./images/note-taker.png",
+        "deployed_link": "https://deploying-note-taker-app.herokuapp.com/",
+        "github_link": "https://github.com/IqbalAhmadi/Note-Taker"
+    },
+    {
+        "name": "Text Editor",
+        "description": "A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria.",
+        "image": "./images/text-editor.png",
+        "deployed_link": "https://text-editor-pwa-backend.herokuapp.com/",
+        "github_link": "https://github.com/IqbalAhmadi/Text-Editor-PWA-BackEnd"
+    },
+    {
+        "name": "Tech Blog Backend",
+        "description": "This is a backend tech blog project that allows user to post a blog. Users are able to create accounts with secure password with the ability of hashing and storing.",
+        "image": "./images/tech-blog.png",
+        "deployed_link": "https://tech-blog-backend.herokuapp.com/",
+        "github_link": "https://github.com/IqbalAhmadi/Tech-Blog"
+    },
+    {
+        "name": "Fresh Tomatoes",
+        "description": "A project where all the popular movies are fetched from API and displayed",
+        "image": "./images/fresh-tomatoes.png",
+        "deployed_link": "https://iqbalahmadi.github.io/fresh-tomatoes/",
+        "github_link": "https://github.com/IqbalAhmadi/fresh-tomatoes"
+    },
+]

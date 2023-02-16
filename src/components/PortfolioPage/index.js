@@ -1,6 +1,6 @@
 import './index.scss'
 import Projects from '../Projects/pojects'
-import AnimatedLetters from '../AnimatedLetters'
+// import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
@@ -19,7 +19,7 @@ const PortfolioPage = () => {
 
   return (
     <>
-      <div className="container about-page">
+      {/* <div className="container about-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -45,7 +45,7 @@ const PortfolioPage = () => {
             completed projects.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="container">
         <Projects currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </div>
