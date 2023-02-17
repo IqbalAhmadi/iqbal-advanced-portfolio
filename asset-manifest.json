@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba1848ea.css",
-    "main.js": "/static/js/main.9266ce64.js",
-    "static/js/787.3cbf998e.chunk.js": "/static/js/787.3cbf998e.chunk.js",
-    "static/media/fresh-tomatoes.png": "/static/media/fresh-tomatoes.e351f36428790ad4af1e.png",
-    "static/media/iqbal-photo.png": "/static/media/iqbal-photo.db6bfd0f22efcdb94c25.png",
-    "static/media/tech-blog.png": "/static/media/tech-blog.24bc76328f218fa21c8c.png",
-    "static/media/note-taker.png": "/static/media/note-taker.99fb80875d3e1efe688a.png",
-    "static/media/text-editor.png": "/static/media/text-editor.8cce9da5f8a114418faa.png",
-    "static/media/logo-s1.png": "/static/media/logo-s1.e5beba44101705d04867.png",
-    "static/media/logo_sub_1.png": "/static/media/logo_sub_1.8c39d2c81eb219f6f456.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.ba1848ea.css.map": "/static/css/main.ba1848ea.css.map",
-    "main.9266ce64.js.map": "/static/js/main.9266ce64.js.map",
-    "787.3cbf998e.chunk.js.map": "/static/js/787.3cbf998e.chunk.js.map"
+    "main.css": "/iqbal-advanced-portfolio/static/css/main.8fe00fd2.css",
+    "main.js": "/iqbal-advanced-portfolio/static/js/main.02245ded.js",
+    "static/js/787.3cbf998e.chunk.js": "/iqbal-advanced-portfolio/static/js/787.3cbf998e.chunk.js",
+    "static/media/fresh-tomatoes.png": "/iqbal-advanced-portfolio/static/media/fresh-tomatoes.e351f36428790ad4af1e.png",
+    "static/media/iqbal-photo.png": "/iqbal-advanced-portfolio/static/media/iqbal-photo.db6bfd0f22efcdb94c25.png",
+    "static/media/tech-blog.png": "/iqbal-advanced-portfolio/static/media/tech-blog.24bc76328f218fa21c8c.png",
+    "static/media/note-taker.png": "/iqbal-advanced-portfolio/static/media/note-taker.99fb80875d3e1efe688a.png",
+    "static/media/text-editor.png": "/iqbal-advanced-portfolio/static/media/text-editor.8cce9da5f8a114418faa.png",
+    "static/media/logo-s1.png": "/iqbal-advanced-portfolio/static/media/logo-s1.e5beba44101705d04867.png",
+    "static/media/logo_sub_1.png": "/iqbal-advanced-portfolio/static/media/logo_sub_1.8c39d2c81eb219f6f456.png",
+    "static/media/helvetica-neu.ttf": "/iqbal-advanced-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/iqbal-advanced-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/iqbal-advanced-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/iqbal-advanced-portfolio/index.html",
+    "main.8fe00fd2.css.map": "/iqbal-advanced-portfolio/static/css/main.8fe00fd2.css.map",
+    "main.02245ded.js.map": "/iqbal-advanced-portfolio/static/js/main.02245ded.js.map",
+    "787.3cbf998e.chunk.js.map": "/iqbal-advanced-portfolio/static/js/787.3cbf998e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba1848ea.css",
-    "static/js/main.9266ce64.js"
+    "static/css/main.8fe00fd2.css",
+    "static/js/main.02245ded.js"
   ]
 }
