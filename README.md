@@ -1,6 +1,6 @@
 # React Portfolio
 
-Hi there 👋. Thank you for visiting my portfolio repo. I made this portfolio for potential employeers and developers in order to see my work as well as to have access to my resume. Feel free to fork this repo if you want to.
+Hi there 👋. Thank you for visiting my portfolio repo. I made this portfolio for potential employeers and developers in order to see my work as well as to have access to my resume for more details. Feel free to fork this repo if you want to.
 
 ## License
 

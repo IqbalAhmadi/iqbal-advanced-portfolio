@@ -46,6 +46,19 @@ const About = () => {
             person, father of a beautiful daughter & two sons, a sports fanatic,
             book enthusiast, and tech-obsessed!!!
           </p>
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['R', 'e', 's', 'u', 'm', 'e']}
+              idx={15}
+            />
+          </h2>
+          <p>
+            You can find more details in my resume.{' '}
+            <a href="./Iqbal-Resume.pdf" target="_blank">
+              (Download it here)
+            </a>
+          </p>
         </div>
 
         <div className="stage-cube-cont">
