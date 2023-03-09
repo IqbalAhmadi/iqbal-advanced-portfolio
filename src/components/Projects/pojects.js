@@ -1,4 +1,4 @@
-import textEditor from '../../assets/images/text-editor.png'
+import reminderNurse from '../../assets/images/reminder-nurse.png'
 import techBlog from '../../assets/images/tech-blog.png'
 import noteTaker from '../../assets/images/note-taker.png'
 import freshTomatoes from '../../assets/images/fresh-tomatoes.png'
@@ -21,11 +21,11 @@ function Projects() {
       <h1>Projects</h1>
       <ol className="d-wrap flex-wrap justify-content-around">
         <li className="application">
-          <a href="https://text-editor-pwa-backend.herokuapp.com/">
-            <h2>Text Editor PWA</h2>
+          <a href="https://reminder-nurse.herokuapp.com/">
+            <h2>Reminder Nurse</h2>
             <img
-              src={textEditor}
-              alt="Text Editor PWA Backend"
+              src={reminderNurse}
+              alt="Reminder Nurse Full Stack Application"
               style={styles.projectImg}
             />
           </a>
