@@ -4,6 +4,8 @@ import noteTaker from '../../assets/images/note-taker.png'
 import freshTomatoes from '../../assets/images/fresh-tomatoes.png'
 import './index.scss'
 
+// returns dimensions in css style with width and ratio provided
+// takes width, then a ratio array ex. 550 16:9
 const imgDimension = (width, [ratioW, ratioH]) => {
   const height = (width / ratioW) * ratioH
   return { width: `${width}px`, height: `${height}px` }
@@ -12,38 +14,39 @@ const imgDimension = (width, [ratioW, ratioH]) => {
 function Projects() {
   const styles = {
     projectImg: {
-      ...imgDimension(400, [16, 9]),
+      ...imgDimension(550, [16, 9]),
     },
   }
 
   return (
-    <section className="bg-gray p-5" id="portfolio">
-      <ol className="d-wrap flex-wrap justify-content-around">
+    <section className="p-5" id="portfolio">
+      <ol className="d-flex flex-wrap justify-content-around">
         <li className="application">
           <a href="https://reminder-nurse.herokuapp.com/">
             <h2>Reminder Nurse</h2>
-            <p>
-              It is a cross-platform application built using the MERN stack,
-              aimed at helping users stay on track with their medication dosages
-              through notifications.
-            </p>
-            <img
-              src={reminderNurse}
-              alt="Reminder Nurse Full Stack Application"
-              style={styles.projectImg}
-            />
           </a>
+
+          <p>
+            It is a cross-platform application built using the MERN stack, aimed
+            at helping users stay on track with their medication dosages through
+            notifications.
+          </p>
+          <img
+            src={reminderNurse}
+            alt="Reminder Nurse Full Stack Application"
+            style={styles.projectImg}
+          />
         </li>
 
         <li className="application">
           <a href="https://tech-blog-backend.herokuapp.com/">
             <h2>Tech Blog</h2>
-            <img
-              src={techBlog}
-              alt="Tech Blog Backend"
-              style={styles.projectImg}
-            />
           </a>
+          <img
+            src={techBlog}
+            alt="Tech Blog Backend"
+            style={styles.projectImg}
+          />
         </li>
 
         <li className="application">
