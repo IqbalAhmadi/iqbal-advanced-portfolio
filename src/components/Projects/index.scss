@@ -4,5 +4,19 @@
 }
 .application {
     
-    float: right;
+    // float: right;
+    display: flex;
+  
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin: 0 0 5px;
+  padding: 1.5rem;
+  position: relative;
+}
+
+p{
+  display: flex;
+  color: #fff; 
+  text-decoration: none;
 }

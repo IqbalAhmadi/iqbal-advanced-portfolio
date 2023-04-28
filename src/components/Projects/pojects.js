@@ -18,11 +18,15 @@ function Projects() {
 
   return (
     <section className="bg-gray p-5" id="portfolio">
-      <h1>Projects</h1>
       <ol className="d-wrap flex-wrap justify-content-around">
         <li className="application">
           <a href="https://reminder-nurse.herokuapp.com/">
             <h2>Reminder Nurse</h2>
+            <p>
+              It is a cross-platform application built using the MERN stack,
+              aimed at helping users stay on track with their medication dosages
+              through notifications.
+            </p>
             <img
               src={reminderNurse}
               alt="Reminder Nurse Full Stack Application"
